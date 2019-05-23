@@ -1,0 +1,70 @@
+html {
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    max-width: 1920px;
+    min-width: 1080px;
+}
+
+.main-foto {
+    position: absolute;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.top-header {
+    position: relative;
+    color: white;
+    background: url(../images/pulp-fiction.jpg) no-repeat black;
+    opacity: 0.8;
+    height: 720px;
+    padding: 10px 50px 20px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header-nav__item {
+    margin: 0 15px;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 600px;
+    text-align: center;
+}
+
+.main-text {
+    font-size: 64px;
+}
