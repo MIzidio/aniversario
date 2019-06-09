@@ -14,7 +14,7 @@
 <body>
     <header class="top-header sections-padding">
         <ul class="header-list">
-            <li class="header-nav__item"><a href="#lista-de-presentes">Lista de presenças</a></li>
+            <li class="header-nav__item"><a href="#contato">Deixe sua menssagem</a></li>
             <li class="header-nav__item"><a href="#casais">15 Casais</a></li>
             <li class="header-nav__item"><a href="#preparativo">Preparativos</a></li>
             <li class="header-nav__item"><a href="#rsvp">RSVP</a></li>
@@ -26,9 +26,6 @@
             <h1 class="main-text">Anna Luísa, 15 anos!</h1>
         </div>
     </header>
-    <!-- <section id="lista-de-presentes">
-
-    </section> -->
     <section id="video" class="content-section section-padding">
         <h2 class="section-title">Videos</h2>
         <div class="iframe">
@@ -183,6 +180,30 @@
     </section>
     <section id="rsvp" class="content-section section-padding">
         <h2 class="section-title">RSVP</h2>
+        <form action="https://formspree.io/contato@15zaoannalu2019.com" method="POST">
+            <div class="form-div">
+                <label class="form-label" for="username">Nome: </label>
+                <input type="text" name="username">
+            </div>
+            <div class="form-div">
+                <label class="form-label" for="mail">Email: </label>
+                <input type="email" name="mail">
+            </div>
+            <div class="form-div">
+                <label class="form-label" for="pessoas">Quantidade de pessoas: </label>
+                <input type="text" name="pessoas">
+            </div>
+            <div class="form-div">
+                <label class="form-label" for="message">Message: </label>
+                <textarea type="text" name="message" cols="50" rows="3"></textarea>
+            </div>
+            <div class="form-div">
+                <button class="submit" type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <section id="contato" class="content-section section-padding">
+        <h2 class="section-title">Deixe sua menssagem</h2>
         <form action="https://formspree.io/contato@15zaoannalu2019.com" method="POST">
             <div class="form-div">
                 <label class="form-label" for="username">Nome: </label>
