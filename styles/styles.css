@@ -22,7 +22,6 @@ body {
 
 .top-header {
     position: relative;
-    color: black;
     background: url(../images/rosa2.jpg) no-repeat center;
     background-size: cover;
     max-width: 1920px;
@@ -39,7 +38,7 @@ body {
 
 a {
     text-decoration: none;
-    color: yellow;
+    color: white;
     font-size: 20px;
     font-weight: 500;
 }
@@ -49,7 +48,7 @@ a:hover {
 }
 
 a:visited {
-    color: yellow;
+    color: white;
 }
 
 .header-list {
@@ -74,7 +73,7 @@ a:visited {
 
 .main-text {
     font-size: 50px;
-    color: yellow;
+    color: white;
 }
 
 .content-section {
